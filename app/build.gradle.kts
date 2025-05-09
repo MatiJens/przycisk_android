@@ -1,9 +1,7 @@
 plugins {
-    alias(libs.plugins.android.application)
+    id("com.android.application") version "8.8.2"
     alias(libs.plugins.kotlin.android)
-    alias(libs.plugins.kotlin.compose)
 }
-
 android {
     namespace = "com.example.test"
     compileSdk = 35
