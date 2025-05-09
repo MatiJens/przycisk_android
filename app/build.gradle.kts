@@ -1,6 +1,6 @@
 plugins {
     id("com.android.application") version "8.8.2"
-    alias(libs.plugins.kotlin.android)
+    id("org.jetbrains.kotlin.android") version "1.9.0"
 }
 android {
     namespace = "com.example.test"
