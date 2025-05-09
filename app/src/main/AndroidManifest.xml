@@ -33,9 +33,10 @@
             android:name=".SecondActivity"
             android:exported="false" />
     </application>
-
-</manifest>
  <activity
  android:name=".RegisterActivity"
  android:exported="false"
  android:theme="@style/Theme.Test" />
+
+
+</manifest>
